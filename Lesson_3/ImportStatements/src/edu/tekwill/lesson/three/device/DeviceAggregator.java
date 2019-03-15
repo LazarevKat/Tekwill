@@ -10,6 +10,5 @@ edu.tekwill.lesson.three.device.data.Device modelDevice;
 
 
 
-  Device dataDevice;
-  Device modelDevice;
+ 
 }
