@@ -21,21 +21,17 @@ public class TwoIntegers {
         Scanner sc = new Scanner(System.in);
         int X = sc.nextInt();
         System.out.println("Please input integer Y");
-          //      Scanner sc = new Scanner(System.in);
+        //      Scanner sc = new Scanner(System.in);
         int Y = sc.nextInt();
-int Sum = X+Y;
-int Diffrence = X-Y;
-int Product = X*Y;
-float Average = (X+Y)/2;
-float Remainder = X%Y;
-System.out.println("the Sum of X,Y is " + Sum);
-System.out.println("the Diffrence of X,Y is " + Diffrence);
-System.out.println("the Average of X,Y is " + Average);
-System.out.println("the Remainder of the division is " + Remainder);
-
-
-
-
+        int Sum = X + Y;
+        int Diffrence = X - Y;
+        int Product = X * Y;
+        float Average = (X + Y) / 2;
+        float Remainder = X % Y;
+        System.out.println("the Sum of X,Y is " + Sum);
+        System.out.println("the Diffrence of X,Y is " + Diffrence);
+        System.out.println("the Average of X,Y is " + Average);
+        System.out.println("the Remainder of the division is " + Remainder);
 
     }
 
