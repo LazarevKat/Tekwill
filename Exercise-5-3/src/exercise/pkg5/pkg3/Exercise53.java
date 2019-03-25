@@ -38,23 +38,26 @@ public class Exercise53 {
             System.out.println("x1= " + x1);
             System.out.println("x2= " + x2);
         } else {
-            System.out.println("no result");}
+            System.out.println("no result");
+        }
 
-            System.out.println("insert  the length of each side of triangle");
-            float l1 = sc.nextFloat();
-            float l2 = sc.nextFloat();
-            float l3 = sc.nextFloat();
-            if (l1 == l2) {
-                if (l2 == l3) {
-                    System.out.println("the triangle is equilateral");
-                } else {
-                    System.out.println("the triangle is isosceles");
-                }
-            } else {
-                System.out.println("the triangle is scalene");
-            }
-
+        System.out.println("insert  the length of each side of triangle");
+        float l1 = sc.nextFloat();
+        float l2 = sc.nextFloat();
+        float l3 = sc.nextFloat();
+        if (l1 == l2) 
+            if (l2 == l3) 
+                System.out.println("the triangle is equilateral");
+            else 
+                System.out.println("the triangle is isosceles");
+                if (l1 == l3) 
+            System.out.println("the triangle is isosceles"); 
+                  else 
+            System.out.println("the triangle is scalene");
+        
+        
         }
 
     }
+
 
